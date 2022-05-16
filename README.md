@@ -9,7 +9,7 @@ In this project we used AWS Sagemaker to perform an image classification task on
 
 We also use profiler profiling, to optimize resources to utilize longer training resources and later available data, and use AWS at cost and cost to maximize performance during training. Along with the profiler profile, they also bring the debugger monitors, model parameters such as a loss function and capture information such as overfitting, overtraining, loss not decreasing, fading gradients, and information that helps us understand how it is the training.
 
-Após todos essas tarefas, realizamos o deploy do modelo na AWS, realizamos inferencias e analisamos a resposta do modelo.
+After all these tasks, we deploy the model to AWS, perform inferences and analyze the model's response.
 
 ## Project Set Up and Installation
 Enter AWS through the gateway in the course and open SageMaker Studio. 
@@ -17,9 +17,9 @@ Download the starter files.
 Download/Make the dataset available.
 
 ### Files in the project
-O Core do projeto é o notebook train_and_deploy.ipynb, para treino utilizamos o train_model.py dentro da pasta scripts, e para hyperparameter tunning utilizamos hpo.py dentro da pasta scripts tambem.
+The Core of the project is the train_and_deploy.ipynb notebook, for training we use train_model.py inside the scripts folder, and for hyperparameter tuning we use hpo.py inside the scripts folder as well.
 
-A imagem Affenpinscher_00003.jpg é para ser utilizada para testar o endpoint.
+The Affenpinscher_00003.jpg image is to be used to test the endpoint.
 
 
 ## Dataset
@@ -27,9 +27,9 @@ The provided dataset is the dogbreed classification dataset which can be found i
 
 The Dataset we use is the dog breed dataset, it contains 133 dog categories and a total of 8351 images, divided into training, validation and testing where:
 
-- 6680 Imagens estão no conjunto de treino
-- 835 Imagens estão no conjunto de validação
-- 836 Imagens estão no conjunto de teste
+- 6680 Images are in the training set
+- 835 Images are in the validation set
+- 836 Images are in the test set
 
 ![images/dog_images.png](images/dog_images.png)
 
