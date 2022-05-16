@@ -1,6 +1,3 @@
-# image-classification-aws-sagemaker
-Este projeto mostra como realizar classificação de imagens no AWS Sagemaker utilizando o modelo pretreinado Resnet, hyperparameter tunning, debugger e profilling para monitorando do modelo e recursos computacionais.
-
 # Image Classification using AWS SageMaker
 
 Use AWS Sagemaker to train a pre-trained model that can perform image classification using Sagemaker profiling, the debugger, hyperparameter tuning, and other ML engineering best practices. This can be done on the given dog breed classification dataset or one of your choice.
